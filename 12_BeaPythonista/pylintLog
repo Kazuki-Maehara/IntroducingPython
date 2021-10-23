@@ -1,0 +1,40 @@
+************* Module style1
+style1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+style1.py:1:0: C0103: Constant name "a" doesn't conform to UPPER_CASE naming style (invalid-name)
+style1.py:2:0: C0103: Constant name "b" doesn't conform to UPPER_CASE naming style (invalid-name)
+style1.py:5:6: E0602: Undefined variable 'c' (undefined-variable)
+
+--------------------------------------------------------------------
+Your code has been rated at -6.00/10 (previous run: -6.00/10, +0.00)
+
+************* Module style1
+style1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+style1.py:1:0: C0103: Constant name "a" doesn't conform to UPPER_CASE naming style (invalid-name)
+style1.py:2:0: C0103: Constant name "b" doesn't conform to UPPER_CASE naming style (invalid-name)
+style1.py:3:0: C0103: Constant name "c" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+-------------------------------------------------------------------
+Your code has been rated at 3.33/10 (previous run: -6.00/10, +9.33)
+
+************* Module style1
+style1.py:3:0: C0103: Constant name "first" doesn't conform to UPPER_CASE naming style (invalid-name)
+style1.py:4:0: C0103: Constant name "second" doesn't conform to UPPER_CASE naming style (invalid-name)
+style1.py:5:0: C0103: Constant name "third" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 3.33/10, +1.67)
+
+************* Module style1
+style1.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 8.57/10 (previous run: 5.00/10, +3.57)
+
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 8.57/10, +1.43)
+
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
