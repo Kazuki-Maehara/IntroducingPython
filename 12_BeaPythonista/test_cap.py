@@ -18,7 +18,17 @@ class TestCap(unittest.TestCase):
     def test_multiple_words(self):
         text = 'a veritable flock of ducks'
         result = cap.just_do_it(text)
-        self.assertEqual(result, 'Averitable Flock Of Ducks')
+        self.assertEqual(result, 'A Veritable Flock Of Ducks')
+
+    def test_words_with_apostrophes(self):
+        text = "I'm fresh out of ideas"
+        result = cap.just_do_it(text)
+        self.assertEqual(result, "I'm Fresh Out Of Ideas")
+
+    def test_words_with_quotes(self):
+        text = "\"You're despicable,\" said Daffy Duck"
+        result = cap.just_do_it(text)
+        self.assertEqual(result, "\"You're Despicable,\" Said Daffy Duck")
 
 
 if __name__ == '__main__':
