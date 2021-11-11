@@ -1,0 +1,7 @@
+DEBUG:bunyan:Where's my axe?
+WARNING:bunyan:I need my axe
+DEBUG:root:Looks like rain
+INFO:root:And hail
+WARNING:root:Did I hear thunder?
+ERROR:root:Was that lightning?
+CRITICAL:root:Stop fencing and get inside!
