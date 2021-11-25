@@ -1,0 +1,18 @@
+F.
+======================================================================
+FAIL: test_multiple_words (__main__.TestCap)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/kazuki/Library/Mobile Documents/com~apple~CloudDocs/Desktop/project/IntroducingPython/12_BeaPythonista/test_cap.py", line 21, in test_multiple_words
+    self.assertEqual(result, 'Averitable Flock Of Ducks')
+AssertionError: 'A veritable flock of ducks' != 'Averitable Flock Of Ducks'
+- A veritable flock of ducks
+?  -          ^     ^  ^
++ Averitable Flock Of Ducks
+?            ^     ^  ^
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=1)
